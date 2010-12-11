@@ -1,0 +1,23 @@
+#labels Featured
+= Introduction =
+
+*MarkUtils* is a project to provide some facilities to the swing development.
+
+
+= Details =
+
+MarkUtils features:
+  * Models:
+    * [ObjectComboBoxModel]
+    * [ObjectTableModel]
+  * [Binder] - Bind all the fields of a form to a object with annotations
+  * [ConfigurationUtils] - Just save the preferences
+  * [ActionManager] - Map JButton directly to methods
+  * [Expression] - Solve math formulas as Strings
+  * Collections:
+    * [CollectionsUtil]
+    * [AggregateFunctions]
+
+== Help Us ==
+  * See the [ToDoList]
+  * Get the [http://code.google.com/p/markutils/source/checkout Source Code]
