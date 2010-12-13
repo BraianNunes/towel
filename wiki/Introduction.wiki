@@ -14,6 +14,8 @@ Towel features:
   * [ConfigurationUtils] - Just save the preferences
   * [ActionManager] - Map JButton directly to methods
   * [Expression] - Solve math formulas as Strings
+  * JImagePanel - A JPanel with suports a background image.
+  * TableFilter - A JTable decorator, with give supports to filtering and sortering like excel does.
   * Collections:
     * [CollectionsUtil]
     * [AggregateFunctions]
