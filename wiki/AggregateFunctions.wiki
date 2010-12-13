@@ -35,7 +35,7 @@ And this assignature is:
 
 
 {{{
-package mark.utils.collections.aggr;
+package com.towel.collections.aggr;
 
 /**
  * Functions to work over an object, the object is of the type T
@@ -70,7 +70,7 @@ public interface AggregateFunc<T> {
 As example, this is the implementation of average.
 
 {{{
-package mark.utils.collections.aggr;
+package com.towel.collections.aggr;
 
 public class FuncAvg implements AggregateFunc<Number>{
 	private Number x;
