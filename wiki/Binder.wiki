@@ -53,8 +53,8 @@ Now at the form.
 import java.awt.GridLayout;
 import java.awt.event.*;
 import javax.swing.*;
-import mark.utils.bind.Binder;
-import mark.utils.bind.annotation.*;
+import com.towel.bind.Binder;
+import com.towel.bind.annotation.*;
 @Form(Person.class)
 public class PersonForm extends JFrame {
 	@Bindable(field = "name")
