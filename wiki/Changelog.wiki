@@ -9,6 +9,8 @@ New article about it soon in Wiki.
 
 All packages renamed, from mark.utils.{{{<packages>}}} to com.towel.{{{<packages>}}}.
 
+Until it's done, some articles can still refers to the old project, I'll be changing it over time.
+
 
 ----
 From here, all changes are from the old project.
