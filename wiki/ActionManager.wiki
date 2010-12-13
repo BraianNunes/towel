@@ -48,12 +48,12 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
 
-import mark.utils.awt.ann.Action;
-import mark.utils.awt.ann.ActionManager;
-import mark.utils.bind.Binder;
-import mark.utils.bind.annotation.AnnotatedBinder;
-import mark.utils.bind.annotation.Bindable;
-import mark.utils.bind.annotation.Form;
+import com.towel.awt.ann.Action;
+import com.towel.awt.ann.ActionManager;
+import com.towel.bind.Binder;
+import com.towel.bind.annotation.AnnotatedBinder;
+import com.towel.bind.annotation.Bindable;
+import com.towel.bind.annotation.Form;
 
 @Form(Person.class)
 public class PersonForm extends JFrame {
