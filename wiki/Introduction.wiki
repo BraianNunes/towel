@@ -1,12 +1,12 @@
 #labels Featured
 = Introduction =
 
-*MarkUtils* is a project to provide some facilities to the swing development.
+*Towel* is a project to provide some facilities to the swing development.
 
 
 = Details =
 
-MarkUtils features:
+Towel features:
   * Models:
     * [ObjectComboBoxModel]
     * [ObjectTableModel]
@@ -20,4 +20,4 @@ MarkUtils features:
 
 == Help Us ==
   * See the [ToDoList]
-  * Get the [http://code.google.com/p/markutils/source/checkout Source Code]
+  * Get the [http://code.google.com/p/towel/source/checkout Source Code]
