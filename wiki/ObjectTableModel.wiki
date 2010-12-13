@@ -179,7 +179,7 @@ startTimeMode=0,endMode=3,endMonth=1,endDay=15,endDayOfWeek=1,endTime=0,endTimeM
 }}}
 It is not suitable for view.  
 
-For this reason we create a new instace of the mark.utils.bean.Formatter.
+For this reason we create a new instace of the com.towel.bean.Formatter.
 
  
 
@@ -210,6 +210,10 @@ public interface Formatter {
 }}}
 
 We can set the formatter in the @Resolvable annotation and there is my implementation for calendar.
+
+----
+Important, when implementing a Formatter Formatter, make sure to asign the method format with the return wich you wish to show in the table, in this case, format to String.
+----
 
 {{{
 import java.text.ParseException;
