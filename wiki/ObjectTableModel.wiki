@@ -65,7 +65,7 @@ And it's the only code we need to create a JTable of a class.
 First: The class, here as example i'll use Person.
 
 {{{
-import mark.utils.el.annotation.Resolvable;
+import com.towel.el.annotation.Resolvable;
 
 public class Person {
     @Resolvable(colName = "Name")
@@ -98,8 +98,8 @@ import javax.swing.JFrame;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 
-import mark.utils.el.annotation.AnnotationResolver;
-import mark.utils.swing.table.ObjectTableModel;
+import com.towel.el.annotation.AnnotationResolver;
+import com.towel.swing.table.ObjectTableModel;
 
 import test.Person;
 
@@ -186,7 +186,7 @@ For this reason we create a new instace of the mark.utils.bean.Formatter.
 It's methods signatures are.
 
 {{{
-package mark.utils.bean;
+package com.towel.bean;
 
 /**
  *@author Marcos Vasconcelos
@@ -195,12 +195,12 @@ public interface Formatter {
 	/**
 	 * Convert a object to String.
 	 */
-	public abstract String format(Object obj);
+	public abstract Object format(Object obj);
 
 	/**
 	 * Convert the String to the Object.
 	 */
-	public abstract Object parse(String s);
+	public abstract Object parse(Object s);
 
 	/**
 	 * Naming proposes only
@@ -217,7 +217,7 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
-import mark.utils.bean.Formatter;
+import com.towel.bean.Formatter;
 
 public class CalendarFormatter implements Formatter {
     private final static SimpleDateFormat formatter = new SimpleDateFormat(
@@ -299,8 +299,8 @@ And here a example how it's work.
 
 First. Our model and the Formatter.
 {{{
-import mark.utils.el.annotation.Resolvable;
-import mark.utils.el.handler.MethodHandler;
+import com.towel.el.annotation.Resolvable;
+import com.towel.el.handler.MethodHandler;
 
 public class Person {
 	@Resolvable(colName = "Name")
@@ -347,8 +347,8 @@ import javax.swing.JFrame;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 
-import mark.utils.el.annotation.AnnotationResolver;
-import mark.utils.swing.table.ObjectTableModel;
+import com.towel.el.annotation.AnnotationResolver;
+import com.towel.swing.table.ObjectTableModel;
 
 public class AnnotationResolverTest {
 	public void testAnnotationResolverInit() {
@@ -481,8 +481,8 @@ import java.util.Calendar;
 import java.util.LinkedList;
 import java.util.List;
 
-import mark.utils.el.annotation.Resolvable;
-import mark.utils.el.handler.MethodHandler;
+import com.towel.el.annotation.Resolvable;
+import com.towel.el.handler.MethodHandler;
 
 public class Person {
 	@Resolvable(colName = "Name", accessMethod = MethodHandler.class)
