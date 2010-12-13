@@ -58,9 +58,9 @@ And here a sample code that use this model.
 package combobox;
 import java.util.*;
 import javax.swing.*l;
-import mark.utils.awt.ann.*;
-import mark.utils.bean.Formatter;
-import mark.utils.swing.ObjectComboBoxModel;
+import com.towel.awt.ann.*;
+import com.towel.bean.Formatter;
+import com.towel.swing.ObjectComboBoxModel;
 import model.Person;
 public class ComboBoxExample extends JFrame {
 	private ObjectComboBoxModel<Person> model;
