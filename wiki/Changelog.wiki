@@ -1,6 +1,14 @@
 #summary Project changelog.
 #labels Featured
 
+13/12/2010: Changelog in version 1.0
+The version 1.0 of this project, is the version 2.8 of the Mark Utils project, plus the new features.
+
+The TableFilter, made by ViniGodoy was added to this project under the com.towel.swing.table package.
+New article about it soon in Wiki.
+
+All packages renamed, from mark.utils.<packages> to com.towel.<packages>.
+
 
 ----
 From here, all changes are from the old project.
