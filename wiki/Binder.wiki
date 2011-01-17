@@ -123,4 +123,4 @@ public class PersonForm extends JFrame {
 
 Running this code, the screen shows the field and pressing the button {{{load}}} the object's information of the person is showed in the fields. And the {{{add}}} button updates the object attributes and print the attributes.
 
-To see this in Portuguese (Brasil) [http://markyameba.wordpress.com/2010/03/03/binder-2-0-agora-com-annotations/ see here]
+To see this in Portuguese (Brasil) [http://markytechs.wordpress.com/2010/03/03/binder-2-0-agora-com-annotations/ see here]
